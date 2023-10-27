@@ -2,7 +2,7 @@
 
 //Descrição do teste a ser realizado.
 
-describe('Central de Atendimento ao Cliente TAT', function()
+describe('Acessar um canal no Youtube', function()
 {
     
     //Antes de executar os testes, visita a página do youtube.com.
@@ -20,7 +20,6 @@ describe('Central de Atendimento ao Cliente TAT', function()
         cy.get('#channel-title > #container > #text-container > #text').click()
         cy.contains('#meta > #channel-name > #container > #text-container > #text', 'Lokis')
           .should('be.visible')
-        
     })
     
 })
